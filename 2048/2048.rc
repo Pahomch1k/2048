@@ -1,0 +1,138 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 379, 295
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_LEFT,57,106,32,28,BS_BITMAP
+    PUSHBUTTON      "",IDC_DOWN,155,187,32,28,BS_BITMAP
+    PUSHBUTTON      "",IDC_RIGHT,249,106,33,29,BS_BITMAP
+    PUSHBUTTON      "",IDC_UP,153,25,32,28,BS_BITMAP
+    EDITTEXT        IDC_EDIT1,110,63,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT2,140,63,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT3,169,63,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT4,199,63,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT5,110,90,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT6,140,90,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT7,170,90,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT8,200,90,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT9,110,117,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT10,140,117,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT11,170,117,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT12,200,117,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT13,110,144,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT14,140,144,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT15,170,144,30,28,ES_CENTER
+    EDITTEXT        IDC_EDIT16,200,144,30,28,ES_CENTER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "bitmap1.bmp"
+
+IDB_BITMAP2             BITMAP                  "bitmap2.bmp"
+
+IDB_BITMAP3             BITMAP                  "bitmap3.bmp"
+
+IDB_BITMAP4             BITMAP                  "bitmap4.bmp"
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
